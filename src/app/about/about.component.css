@@ -1,0 +1,12 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}  
+.about{
+    width: 90%;
+    height: 75vh;
+}
+h1{
+    font-weight: 700;
+}

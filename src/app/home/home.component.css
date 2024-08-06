@@ -1,0 +1,23 @@
+.home{
+    width: 100%;
+    height: 75vh;
+}
+.home-img{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img {
+    width: 15%;
+}
+.star{
+    position: relative;
+}
+.star span::after{
+    position: absolute;
+    content: "X";
+    width: 100px;
+    height: 10px;
+    background-color: darkblue;
+}

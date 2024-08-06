@@ -1,0 +1,30 @@
+<h1 class="text-center pt-4">CONTACT SECTION</h1>
+        <app-star-dark></app-star-dark>
+<div class="m-auto w-50 text-center">
+    <div>
+        <div class="container text-center pt-3">
+
+            <div>
+                <label [class.active]="flagUserName" class="p-3" for="userName">userName</label>
+                <input (input)="userNameInput($event,'userName')" id="userName" placeholder="userName"
+                    class="border-0 border-bottom rounded-2 p-2 w-100" type="text">
+            </div>
+            <div>
+                <label [class.active]="flagAge" class="p-3" for="userAge">userAge</label>
+                <input (input)="userNameInput($event,'userAge')" id="userAge" placeholder="userAge"
+                    class="border-0 border-bottom rounded-2 p-2 w-100" type="number">
+            </div>
+            <div>
+                <label [class.active]="flagEmail" class="p-3" for="userEmail">userEmail</label>
+                <input (input)="userNameInput($event,'userEmail')" id="userEmail" placeholder="userEmail"
+                    class="border-0 border-bottom rounded-2 p-2 w-100" type="email">
+            </div>
+            <div>
+                <label [class.active]="flagPassWord" class="p-3" for="userPassowrd">userPassowrd</label>
+                <input (input)="userNameInput($event,'userPassword')" id="userPassowrd" placeholder="userPassowrd"
+                    class="border-0 border-bottom rounded-2 p-2 w-100" type="password">
+            </div>
+            <button [style]="'background-color:#1abc9c;'" class="my-3 btn text-white d-block me-auto">Send
+                Message</button>
+        </div>
+    </div>

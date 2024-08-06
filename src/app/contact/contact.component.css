@@ -1,0 +1,23 @@
+input:focus {
+    outline: none;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+  }
+  label {
+    color: #1abc9c;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    transition: 0.6s all;
+  }
+  label.active {
+    top: 0px;
+  }
+  h1{
+    font-weight: 700;
+    color: #2c3e50;
+}
